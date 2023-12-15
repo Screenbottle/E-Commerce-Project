@@ -1,0 +1,13 @@
+/ECommerce.API/appsettings.json
+/ECommerce.Common/obj/Debug/net8.0/ECommerce.Common.AssemblyInfo.cs
+/ECommerce.Common/obj/Debug/net8.0/ECommerce.Common.AssemblyInfoInputs.cache
+/ECommerce.Common/obj/Debug/net8.0/ECommerce.Common.assets.cache
+/ECommerce.Common/obj/Debug/net8.0/ECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.AssemblyInfo.cs
+/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.AssemblyInfoInputs.cache
+/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.assets.cache
+/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.csproj.AssemblyReference.cache
+/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.GeneratedMSBuildEditorConfig.editorconfig
+/ECommerce.API/obj/Debug/net8.0/ECommerce.API.assets.cache
+/ECommerce.API/obj/Debug/net8.0/ECommerce.API.csproj.AssemblyReference.cache
+/ECommerce.API/obj/Debug/net8.0/ECommerce.API.GeneratedMSBuildEditorConfig.editorconfig

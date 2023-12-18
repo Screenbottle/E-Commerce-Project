@@ -1,0 +1,9 @@
+global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
+global using ECommerce.Data.Contexts;
+global using ECommerce.Data.Entities;
+global using ECommerce.Common.DTOs;
+global using ECommerce.Data.Services;
+global using ECommerce.API.Interfaces;
+global using ECommerce.API.Extensions;
+global using ECommerce.API.Endpoints;

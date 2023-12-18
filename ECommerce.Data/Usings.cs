@@ -5,3 +5,4 @@ global using System.Linq.Expressions;
 global using AutoMapper;
 global using ECommerce.Data.Entities;
 global using ECommerce.Data.Contexts;
+global using ECommerce.Data.Services;

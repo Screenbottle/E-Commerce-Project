@@ -9,23 +9,41 @@ public class ECommerceDbContext : DbContext
     public DbSet<Order> Orders { get; set; }
     public DbSet<OrderItem> OrderItems { get; set; }
     public DbSet<Customer> Customers { get; set; }
+
+    public ECommerceDbContext (DbContextOptions <ECommerceDbContext> options) : base (options) { }
  
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        // Configure relationships, constraints, etc.
-        modelBuilder.Entity<OrderItem>()
-            .HasKey(oi => new { oi.OrderItemId, oi.OrderId, oi.ProductId });
+    // protected override void OnModelCreating(ModelBuilder builder)
+    // {
+    //     base.OnModelCreating(builder);
+    //     // Configure relationships, constraints, etc.
+    //     builder.Entity<OrderItem>()
+    //         .HasKey(oi => new { oi.OrderItemId, oi.OrderId, oi.ProductId });
  
-        modelBuilder.Entity<OrderItem>()
-            .HasOne(oi => oi.Product)
-            .WithMany(p => p.OrderItems)
-            .HasForeignKey(oi => oi.ProductId);
+    //     builder.Entity<OrderItem>()
+    //         .HasOne(oi => oi.Product)
+    //         .WithMany(p => p.OrderItems)
+    //         .HasForeignKey(oi => oi.ProductId);
  
-        modelBuilder.Entity<OrderItem>()
-            .HasOne(oi => oi.Order)
-            .WithMany(o => o.OrderItems)
-            .HasForeignKey(oi => oi.OrderId);
+    //     builder.Entity<OrderItem>()
+    //         .HasOne(oi => oi.Order)
+    //         .WithMany(o => o.OrderItems)
+    //         .HasForeignKey(oi => oi.OrderId);
  
-        // Add additional configurations as needed
+    //     // Add additional configurations as needed
+    // }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=mydb;User Id=sa;Password=Sddk1234;MultipleActiveResultSets=true;Encrypt=false");
+        }
+        DbContextOptionsBuilder optionsBuilder = new DbContextOptionsBuilder();
+
+        public ECommerceDbContext()
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=localhost,1433;Database=mydb;User Id=sa;Password=Sddk1234;MultipleActiveResultSets=true;Encrypt=false");
+            }
+        }
+
     }
-}

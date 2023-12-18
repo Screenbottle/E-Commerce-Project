@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {}
+    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {
+    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj",
+        "projectUniqueName": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj",
         "projectName": "ECommerce.Common",
-        "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj",
-        "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\obj\\",
+        "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj",
+        "packagesPath": "/Users/elin/.nuget/packages/",
+        "outputPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/elin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

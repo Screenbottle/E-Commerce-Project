@@ -15,6 +15,4 @@ public class OrderPutDTO : OrderPostDTO
 }
 
 public class OrderGetDTO : OrderPutDTO 
-{
-    public ICollection<OrderItemGetDTO> Orders {get; set;} = new List<OrderItemGetDTO>();
-}
+{}

@@ -14,6 +14,6 @@ public class ProductPutDTO : ProductPostDTO
 
 public class ProductGetDTO : ProductPutDTO
 {
-    // get orderItem here
+    public List<OrderItemGetDTO> OrderItems { get; set; } = new List<OrderItemGetDTO>();
 }
 

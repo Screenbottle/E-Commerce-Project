@@ -9,7 +9,7 @@ public static class ApiExtensions
         var node = typeof(TEntity).Name.ToLower();
         app.MapGet($"/api/{node}s/" + "{id}", HttpSingleAsync<TEntity, TGetDto>);
         app.MapGet($"/api/{node}s", HttpGetAsync<TEntity, TGetDto>);
-        app.MapPost($"/api/{node}s", HttpPostAsync<TEntity, TPostDto>);
+        app.MapPost($"/api/{node}", HttpPostAsync<TEntity, TPostDto>);
         app.MapPut($"/api/{node}s/" + "{id}", HttpPutAsync<TEntity, TPutDto>);
         app.MapDelete($"/api/{node}s/" + "{id}", HttpDeleteAsync<TEntity>);
     }

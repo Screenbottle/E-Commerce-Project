@@ -6,6 +6,7 @@ public class Product : IEntity
     [Precision(18, 2)]
     public decimal Price { get; set; }
     public int InventoryQuantity { get; set; } // Represents the available quantity of products.
+    public bool InStock { get; set; }
  
     public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 

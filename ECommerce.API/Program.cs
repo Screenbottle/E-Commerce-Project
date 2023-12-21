@@ -25,7 +25,6 @@ builder.Services.AddCors(policy => {
 
 ConfigureAutoMapper(builder.Services);
 RegisterServices(builder.Services);
-ConfigureServices(builder.Services);
 
 var app = builder.Build();
 
@@ -96,10 +95,7 @@ void RegisterServices(IServiceCollection services)
     services.AddTransient<IEndPoint, OrderItemEndpoint>();
 }
 
- void ConfigureServices(IServiceCollection services)
-{
-    
-}
+
 
 
 void RegisterEndpoints(WebApplication app)

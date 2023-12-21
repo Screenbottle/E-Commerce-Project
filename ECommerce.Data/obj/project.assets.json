@@ -4064,19 +4064,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/elin/.nuget/packages/": {}
+    "C:\\Users\\arvid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj",
+      "projectUniqueName": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj",
       "projectName": "ECommerce.Data",
-      "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj",
-      "packagesPath": "/Users/elin/.nuget/packages/",
-      "outputPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/obj/",
+      "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj",
+      "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/elin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4088,8 +4088,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {
-              "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj"
+            "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {
+              "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj"
             }
           }
         }
@@ -4135,7 +4135,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5lZreXUlwPn4mJcc09ZMF136j+Oer0bb7UxVLejcjQEpX40+rfdbOejnu2YVDkcOWRNBMC0Un7NfOSBZ/WqJLw==",
+  "dgSpecHash": "MK/qqrU8EAr/jS4BLp9zLmtFfb82MUVGAPyz0rhHQlDoS/VRmYAv+Qtk4uuKSsZ4iv2EkeibMnUhHHYmGZWSDA==",
   "success": true,
-  "projectFilePath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj",
+  "projectFilePath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

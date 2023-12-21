@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.API/ECommerce.API.csproj": {}
+    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.API\\ECommerce.API.csproj": {}
   },
   "projects": {
-    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.API/ECommerce.API.csproj": {
+    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.API\\ECommerce.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.API/ECommerce.API.csproj",
+        "projectUniqueName": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.API\\ECommerce.API.csproj",
         "projectName": "ECommerce.API",
-        "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.API/ECommerce.API.csproj",
-        "packagesPath": "/Users/elin/.nuget/packages/",
-        "outputPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.API/obj/",
+        "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.API\\ECommerce.API.csproj",
+        "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {
-                "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj"
+              "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {
+                "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj"
               },
-              "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj": {
-                "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj"
+              "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj": {
+                "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj"
               }
             }
           }
@@ -83,21 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {
+    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj",
+        "projectUniqueName": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj",
         "projectName": "ECommerce.Common",
-        "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj",
-        "packagesPath": "/Users/elin/.nuget/packages/",
-        "outputPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/obj/",
+        "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj",
+        "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -136,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj": {
+    "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj",
+        "projectUniqueName": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj",
         "projectName": "ECommerce.Data",
-        "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/ECommerce.Data.csproj",
-        "packagesPath": "/Users/elin/.nuget/packages/",
-        "outputPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/obj/",
+        "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\ECommerce.Data.csproj",
+        "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -162,8 +162,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj": {
-                "projectPath": "/Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/ECommerce.Common.csproj"
+              "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj": {
+                "projectPath": "C:\\Users\\arvid\\Documents\\ITHS\\backend\\E-Commerce Project\\ECommerce.Common\\ECommerce.Common.csproj"
               }
             }
           }
@@ -209,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

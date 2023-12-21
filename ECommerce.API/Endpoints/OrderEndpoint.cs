@@ -1,5 +1,7 @@
 
 
+using ECommerce.Common.DTOs;
+
 namespace ECommerce.API.Endpoints;
 
 public class OrderEndpoint : IEndPoint
@@ -15,9 +17,28 @@ public class OrderEndpoint : IEndPoint
 
     public void Register (WebApplication app) 
     {
+        //app.MapGet($"/api/Orderss/" + "{id}", HttpSingleAsync<TEntity, TGetDto>);
+        app.MapGet($"/api/Orders", HttpGetAsync<Order, OrderGetDTO>);
+        app.MapPost($"api/Order", HttpPostAsync);
         
-        app.MapPost($"api/Orderrrr", HttpPostAsync) ;
+
+       
     }
+
+    //  public static void Register<TEntity, TPostDto, TPutDto, TGetDto>(this WebApplication app)
+    // where TEntity : class, IEntity where TPostDto : class where TPutDto : class where TGetDto : class
+    // {
+    //     var node = typeof(TEntity).Name.ToLower();
+    //     app.MapGet($"/api/{node}s/" + "{id}", HttpSingleAsync<TEntity, TGetDto>);
+    //     app.MapGet($"/api/{node}s", HttpGetAsync<TEntity, TGetDto>);
+    //     app.MapPost($"/api/{node}", HttpPostAsync<TEntity, TPostDto>);
+    //     app.MapPut($"/api/{node}s/" + "{id}", HttpPutAsync<TEntity, TPutDto>);
+    //     app.MapDelete($"/api/{node}s/" + "{id}", HttpDeleteAsync<TEntity>);
+    // }
+    
+
+    public static async Task<IResult> HttpGetAsync<TEntity, TDto>(DbService db) where TEntity : class where TDto : class => 
+        Results.Ok(await db.GetAsync<TEntity, TDto>());
 
     public async Task<IResult> HttpPostAsync(DbService db, OrderPostDTO dto)
     {
@@ -29,16 +50,31 @@ public class OrderEndpoint : IEndPoint
         {
             var product = db.db.Products.Find(oItem.ProductId);
             var quantity = oItem.Quantity;
-            
-            // TODO implement null check if the object Product is null
-            var inventoryOuantity = db.db.Products.First(p => p.Id == product.Id).InventoryQuantity;
 
-            if(quantity <= inventoryOuantity) {
-                // check success
+            if (product != null) {
+                var inventoryOuantity = db.db.Products.First(p => p.Id == product.Id).InventoryQuantity;
+
+                if(quantity <= inventoryOuantity) {
+                    // check success
+                oItem.TotalPrice = product.Price * quantity; 
+                }
+                else {
+                    return Results.Problem($"Error: Not enough of {product.Name} in stock");
+                }  
+            } else 
+            {
+                return Results.Problem($"Error: Product with Id {oItem.ProductId} does not exist in the database. "); 
             }
-            else {
-                return Results.Problem($"Error: Not enough of {product.Name} in stock");
-            }
+        }
+
+        // if the previous foreach is completed without problems - decrease Product.inventoryQuantity
+
+        foreach (var oItem in newOrder.OrderItems) 
+        {
+            var product = db.db.Products.Find(oItem.ProductId);
+            var quantity = oItem.Quantity;
+
+            product.InventoryQuantity -= quantity;
         }
 
         // use context

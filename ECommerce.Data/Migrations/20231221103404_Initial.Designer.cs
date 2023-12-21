@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ECommerce.Data.Migrations
 {
     [DbContext(typeof(ECommerceDbContext))]
-    [Migration("20231219115059_Initial")]
+    [Migration("20231221103404_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -104,6 +104,9 @@ namespace ECommerce.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("InStock")
+                        .HasColumnType("bit");
 
                     b.Property<int>("InventoryQuantity")
                         .HasColumnType("int");

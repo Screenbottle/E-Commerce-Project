@@ -33,7 +33,8 @@ namespace ECommerce.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", precision: 18, scale: 2, nullable: false),
-                    InventoryQuantity = table.Column<int>(type: "int", nullable: false)
+                    InventoryQuantity = table.Column<int>(type: "int", nullable: false),
+                    InStock = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

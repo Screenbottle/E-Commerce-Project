@@ -5,6 +5,7 @@ public class ProductPostDTO
     public string Name { get; set; } = string.Empty;
     public decimal Price { get; set; } 
     public int InventoryQuantity { get; set; }
+    public bool InStock { get; set; }
 }
 
 public class ProductPutDTO : ProductPostDTO 

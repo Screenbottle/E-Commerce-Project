@@ -86,7 +86,7 @@ public class DbService
             if (name == "Orders")
             {
                 // Include OrderItems and its navigation properties
-                query = query.Include($"{name}.OrderItems.Product");
+                query = query.Include($"{name}.OrderItems");
             }
             else
             {

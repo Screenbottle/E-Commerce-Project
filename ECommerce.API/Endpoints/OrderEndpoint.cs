@@ -1,7 +1,5 @@
 
 
-using ECommerce.Common.DTOs;
-
 namespace ECommerce.API.Endpoints;
 
 public class OrderEndpoint : IEndPoint
@@ -13,13 +11,14 @@ public class OrderEndpoint : IEndPoint
     {
         _mapper = mapper;
     }
-   // public void Register(WebApplication app) => app.Register<Order, OrderPostDTO, OrderPutDTO, OrderGetDTO>();
+
 
     public void Register (WebApplication app) 
     {
-        //app.MapGet($"/api/Orderss/" + "{id}", HttpSingleAsync<TEntity, TGetDto>);
+        app.MapGet($"/api/Orders/" + "{id}", HttpSingleAsync<Order, OrderGetDTO>);
         app.MapGet($"/api/Orders", HttpGetAsync<Order, OrderGetDTO>);
         app.MapPost($"api/Order", HttpPostAsync);
+        app.MapDelete($"/api/Orders/" + "{id}", HttpDeleteAsync);
         
 
        
@@ -37,6 +36,12 @@ public class OrderEndpoint : IEndPoint
     // }
     
 
+    public static async Task<IResult> HttpSingleAsync<TEntity, TDto>(DbService db, int id) where TEntity : class, IEntity where TDto : class
+        {
+            var result = await db.SingleAsync<TEntity, TDto>(id);
+            if (result is null) return Results.NotFound();
+            return Results.Ok(result);
+        }
     public static async Task<IResult> HttpGetAsync<TEntity, TDto>(DbService db) where TEntity : class where TDto : class => 
         Results.Ok(await db.GetAsync<TEntity, TDto>());
 
@@ -155,6 +160,22 @@ public class OrderEndpoint : IEndPoint
 
     static int OrderItemQuantityDiff(OrderItem newItem, OrderItem oldItem) {
         return newItem.Quantity - oldItem.Quantity;
+      }
+
+    public async Task<IResult> HttpDeleteAsync(DbService db, int id)
+    {
+        try
+        {
+            if(!await db.DeleteAsync<Order>(id)) return Results.NotFound();
+
+            if (await db.SaveChangesAsync()) return Results.NoContent();
+        }
+        catch
+        {
+        }
+
+        return Results.BadRequest($"Couldn't delete the Order entity.");
+
     }
 
     public Order? ConvertToEntity<TEntity, TDto>(TDto dto) where TEntity : class, IEntity where TDto : class

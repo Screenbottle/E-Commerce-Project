@@ -10,9 +10,10 @@ public class Product : IEntity
  
     public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
-    public Product(string name, decimal price, int inventoryQuantity) {
+    public Product(string name, decimal price, int inventoryQuantity, bool inStock) {
         Name = name;
         Price = price;
         InventoryQuantity = inventoryQuantity;
+        InStock = inStock;
     }
 }

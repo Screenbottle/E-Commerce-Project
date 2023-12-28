@@ -34,3 +34,21 @@ C:/Users/arvid/Documents/ITHS/backend/E-Commerce Project/ECommerce.Data/obj/Debu
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.pdb
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/obj/Debug/net8.0/ECommerce.Data.genruntimeconfig.cache
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Data/obj/Debug/net8.0/ref/ECommerce.Data.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Data.deps.json
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Data.runtimeconfig.json
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Data.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Data.pdb
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Common.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\bin\Debug\net8.0\ECommerce.Common.pdb
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.csproj.AssemblyReference.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.AssemblyInfoInputs.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.AssemblyInfo.cs
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.csproj.CoreCompileInputs.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.sourcelink.json
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.csproj.CopyComplete
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\refint\ECommerce.Data.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.pdb
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ECommerce.Data.genruntimeconfig.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Data\obj\Debug\net8.0\ref\ECommerce.Data.dll

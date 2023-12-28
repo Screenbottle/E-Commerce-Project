@@ -36,8 +36,9 @@ public static class ApiExtensions
                 return Results.Created($"/{node}s/{entity.Id}", entity);
             }
         }
-        catch
+        catch (Exception ex)
         {
+            Console.WriteLine($"Error: {ex.Message}");
         }
 
         return Results.BadRequest($"Couldn't add the {typeof(TEntity).Name} entity.");

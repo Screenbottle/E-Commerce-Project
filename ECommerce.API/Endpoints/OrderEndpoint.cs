@@ -38,6 +38,13 @@ public class OrderEndpoint : IEndPoint
         var order = ConvertToEntity<Order, OrderPostDTO>(dto);
 
         if (order is Order newOrder) {
+
+            var customer = db.db.Customers.Find(newOrder.CustomerId);
+
+            if(customer == null)
+            {
+                return Results.NotFound($"Customer with the specified ID {newOrder.CustomerId} not found."); 
+            }
         
         foreach (var oItem in newOrder.OrderItems)
         {

@@ -22,3 +22,15 @@ C:/Users/arvid/Documents/ITHS/backend/E-Commerce Project/ECommerce.Common/obj/De
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/obj/Debug/net8.0/refint/ECommerce.Common.dll
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/obj/Debug/net8.0/ECommerce.Common.pdb
 /Users/elin/Documents/Apputbildning/Backend/E-Commerce-Project/ECommerce.Common/obj/Debug/net8.0/ref/ECommerce.Common.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\bin\Debug\net8.0\ECommerce.Common.deps.json
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\bin\Debug\net8.0\ECommerce.Common.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\bin\Debug\net8.0\ECommerce.Common.pdb
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.AssemblyInfoInputs.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.AssemblyInfo.cs
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.csproj.CoreCompileInputs.cache
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.sourcelink.json
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\refint\ECommerce.Common.dll
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ECommerce.Common.pdb
+C:\Users\arvid\Documents\ITHS\backend\E-Commerce Project\ECommerce.Common\obj\Debug\net8.0\ref\ECommerce.Common.dll

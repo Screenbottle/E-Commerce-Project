@@ -19,6 +19,7 @@ public class OrderEndpoint : IEndPoint
         app.MapGet($"/api/Orders", HttpGetAsync<Order, OrderGetDTO>);
         app.MapPost($"api/Order", HttpPostAsync);
         app.MapDelete($"/api/Orders/" + "{id}", HttpDeleteAsync);
+        app.MapPut($"/api/Orders/" + "{id}", HttpPutAsync);
         
 
        
